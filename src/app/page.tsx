@@ -32,7 +32,7 @@ export default function Home() {
           <h1 className="text-xl font-bold mr-4">画像を検索</h1>
           <input
             type="text"
-            placeholder="キーワードで検索"
+            placeholder="キーワードを入力"
             onChange={handleSearchKeyword}
             className="border border-gray-300 px-2 py-1 rounded"
           />
