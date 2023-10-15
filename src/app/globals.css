@@ -5,24 +5,3 @@
 body {
   background-color: rgb(203, 240, 255);
 }
-
-
-.photo-search-area {
-  width: 100vw;
-  height: 100vh;
-}
-
-.photo-search-form {
-  width: 30%;
-  height: 10%;
-}
-
-.photo-disp {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.photo {
-  padding: 30px;
-  width: 30%;
-}
