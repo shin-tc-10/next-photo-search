@@ -17,9 +17,9 @@ export default function Home() {
     setSearchKeyword(e.target.value);
   }
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
-    await search();
+    search();
   }
 
   const search = async () => {
