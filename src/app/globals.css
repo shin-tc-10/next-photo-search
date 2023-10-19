@@ -5,3 +5,7 @@
 body {
   background-color: rgb(203, 240, 255);
 }
+
+img {
+  box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.5);
+}
