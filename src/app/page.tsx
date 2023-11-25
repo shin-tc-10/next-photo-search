@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className="photo-search-area p-4 md:p-8">
       <div className="photo-search-form mb-4 flex flex-col md:flex-row items-center">
-        <h1 className="text-xl font-bold mb-2 md:mr-4">画像を検索</h1>
+        <h1 className="text-xl font-bold mb-2 md:mr-4">Next Photo Search</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
